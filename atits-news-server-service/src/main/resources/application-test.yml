@@ -1,0 +1,16 @@
+dubbo:
+  application:
+    name: news-provider
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    port: 20880
+  annotation:
+    package: 'cn.edu.ahau.news.service'
+  provider: # 提供者服务版本
+    version: 1.0.0
+  consumer: # 消费者服务版本
+    version: 1.0.0
+spring:
+  jpa:
+    database:
