@@ -17,7 +17,6 @@ public class NewsTypesServiceImplTest {
 
     @Test
     public void getNewsTypeNameById() {
-        System.out.println(newsTypesService.getNewsTypeNameById(1));
     }
 
     @Test
