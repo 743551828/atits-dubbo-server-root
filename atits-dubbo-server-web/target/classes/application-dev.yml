@@ -11,5 +11,4 @@ dubbo:
     timeout: 500000
     check: false
     version: 1.0.0 #dubbo默认版本号，在url显示为default.version=xxx
-swagger:
-  enable: true
+

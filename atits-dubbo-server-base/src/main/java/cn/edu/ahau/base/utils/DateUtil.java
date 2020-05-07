@@ -11,10 +11,20 @@ public class DateUtil {
 
     /**
      * 获取当前年份字符串
-     * @return
+     * @return String 年份
      */
-    public static String getNowYearStr(Date date) {
+    public static String getStringForNowY() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
-        return sdf.format(date);
+        return sdf.format(new Date());
     }
+
+    /**
+     * 获取当前（年月日 时分秒）字符串
+     * @return String 年月日 时分秒
+     */
+    public static String getStringForNowYMDHMS() {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return sdf.format(new Date());
+    }
+
 }
