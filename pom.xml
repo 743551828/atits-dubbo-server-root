@@ -31,7 +31,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <dubbo.version>2.6.2</dubbo.version>
+        <dubbo.version>2.6.9</dubbo.version>
         <curator-framework.version>4.0.1</curator-framework.version>
         <zkclient.version>0.10</zkclient.version>
         <javassist.version>3.18.2-GA</javassist.version>
