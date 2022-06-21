@@ -42,7 +42,7 @@
         <maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
         <zookeeper.version>3.4.9</zookeeper.version>
         <fastjson.version>1.2.4</fastjson.version>
-        <mysql.version>5.1.35</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <druid.version>1.1.10</druid.version>
         <dozer.version>5.4.0</dozer.version>
     </properties>
